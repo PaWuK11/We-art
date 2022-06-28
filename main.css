@@ -1,0 +1,42 @@
+.central-footer-text{
+    color: #C9CBD0; 
+    font-size: 13px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.logo-company{
+    padding-right: 114px;
+}
+
+video{
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  background: url('img/play.png');
+}
+button {
+    background-color:transparent url('img/play.png');
+    border: medium none;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    left: 87%;
+    margin: 0 auto;
+    padding: 8px 16px;
+    position: absolute;
+    right: 0;
+    top: 115%;
+}
+
+button.active {
+    background-color:transparent ;
+  }
