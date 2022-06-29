@@ -1,8 +1,44 @@
 .central-footer-text{
-    color: #C9CBD0; 
     font-size: 13px;
     padding-top: 23px;
     padding-bottom: 23px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #C9CBD0;
+}
+
+.media-res ul a:hover{
+    opacity: 0.5;
+}
+
+.lang a{
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #9999A0;
+}
+
+.lang .item-lang-main{
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #181819;
+    ;
 }
 
 .logo-company{
@@ -11,6 +47,8 @@
 
 video{
   top: 20px;
+  width: 1080px;
+  height: 880px;
   left: 0;
   right: 0;
   bottom: 20px;
@@ -25,7 +63,7 @@ video{
   background: url('img/play.png');
 }
 button {
-    background-color:transparent url('img/play.png');
+    background-color: url('img/play.png');
     border: medium none;
     color: #fff;
     display: block;
@@ -54,16 +92,39 @@ button.active {
 
 .navigation a{
     text-decoration: none;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
     color: #181819;
+}
+
+.navigation a:hover{
+    color: #9094A6;
 }
 
 .title-lvl1{
     
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 24px;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.title-lvl1 h1{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
 }
 
 .post{
@@ -72,6 +133,10 @@ button.active {
     justify-content: space-between;
     padding-left: 114px;
     padding-right: 112px;
+}
+
+.post img:hover{
+    filter: brightness(80%);
 }
 
 .text-content{
@@ -84,3 +149,61 @@ figcaption{
     font-size: 18px;
 }
 
+.post .conteiner figcaption{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+text-align: center;
+
+color: #181819;
+}
+.text-content{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 291px;
+    padding-right: 321px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+color: #181819;
+}
+
+.main-text p{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-left: 308px;
+    padding-right: 308px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+
+    color: #181819;
+}
+
+.read-more a{
+    display: flex;
+    text-decoration: 1px dashed #181819;
+    padding-left: 700px;
+    padding-right: 600px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    color: #181819;
+}

@@ -15,7 +15,7 @@
 <div class="lang">
     <ul>
         <a class="item-lang" href="#">ENG</a>
-        <a class="item-lang" href="#">УКР</a>
+        <a class="item-lang-main" href="#">УКР</a>
         <a class="item-lang" href="#">POL</a>
     </ul>
 </div>
