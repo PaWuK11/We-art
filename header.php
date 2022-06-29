@@ -14,9 +14,15 @@
 
 <div class="lang">
     <ul>
-        <a class="item-lang" href="#">ENG</a>
-        <a class="item-lang-main" href="#">УКР</a>
-        <a class="item-lang" href="#">POL</a>
+        <li class="lang__item-no-active">
+            <a class="item-lang" href="#">ENG</a>
+        </li>
+        <li class="lang__item-active">
+            <a class="item-lang" href="#">UKR</a>
+        </li>
+        <li class="lang__item-no-active">
+            <a class="item-lang" href="#">POL</a>
+        </li>
     </ul>
 </div>
 

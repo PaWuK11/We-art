@@ -24,8 +24,8 @@
     </div>
 
     <div class="video">
-        <button class="active"><img src="img/play.png" alt=""></button>
-        <video id="banner-video" preload="auto" loop src="img/cafe_-_34203 (Original).mp4">
+        <button class="active">▶</button>
+        <video class="vidos" id="banner-video" preload="auto" loop src="img/cafe_-_34203 (Original).mp4">
             
         </video>
     </div>
@@ -63,7 +63,7 @@
         </div>
     </div>
 
-
+    
         <h1 class="text-content">Замовити дизайн інтер'єру в Хмельницькому для свого будинку!</h1>  
         <label class="main-text"><p>Дім для кожного з нас – це місце, де ми відчуваємо комфорт і спокій, 
             знаходимо душевний спокій, куди всі поспішаємо після важкого трудового дня, і де хочемо
@@ -79,9 +79,10 @@
             і кожен ставить свої пріоритети – для когось настав час, для кого-то ціна. Для команди 
             We-ART пріоритетом є однакова якість завдань і побажань клієнта, тому наша компанія за
              весь час роботи була відкликана тільки з хорошого боку.</p></label>
-        <p class="read-more"><a href="#">Читати більше</a></p>
-   
+             <div class="read-more">
+                <a href="#">Читати більше</a>
+            </div>
     <?php include ("footer.php"); ?>
-    <script type="text/javascript" src="video.js"></script>
+    <script src="video.js"></script>
 </body>
 </html>

@@ -8,7 +8,8 @@
     font-size: 13px;
     line-height: 16px;
     text-align: center;
-
+    padding-left: 30px;
+    padding-right: 30px;
     color: #C9CBD0;
 }
 
@@ -16,30 +17,7 @@
     opacity: 0.5;
 }
 
-.lang a{
-    font-family: 'Century Gothic';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 13px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #9999A0;
-}
 
-.lang .item-lang-main{
-    font-family: 'Century Gothic';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 13px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #181819;
-    ;
-}
 
 .logo-company{
     padding-right: 114px;
@@ -59,7 +37,7 @@ video{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
-  cursor: pointer;
+
   background: url('img/play.png');
 }
 button {
@@ -73,7 +51,8 @@ button {
     padding: 8px 16px;
     position: absolute;
     right: 0;
-    top: 115%;
+    top: 125%;
+    font-size: 50px;
 }
 
 button.active {
@@ -194,9 +173,9 @@ color: #181819;
 
 .read-more a{
     display: flex;
-    text-decoration: 1px dashed #181819;
-    padding-left: 700px;
-    padding-right: 600px;
+    margin-left: 700px;
+    text-decoration: none;
+    margin-right: 600px;
     font-family: 'Century Gothic';
     font-style: normal;
     font-weight: 400;
@@ -205,5 +184,53 @@ color: #181819;
     letter-spacing: 1px;
     text-transform: uppercase;
     padding-bottom: 40px;
+    border: 1px dashed #181819;
     color: #181819;
+}
+
+.read-more a:hover{
+    border: 1px dashed #ffffff;
+}
+
+.headerNew__lang .lang li.active {
+    position: relative;
+}
+
+
+.lang{
+    padding-right: 85px;
+}
+
+
+.lang .lang__item-no-active a{
+    color: #9999A0;
+    list-style-type: none;
+}
+
+.lang .lang__item-active a{
+    color: #181819;
+    list-style-type: circle;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .lang .lang__item-no-active ul li a{
+    flex-basis: auto;
+    flex-grow: 1;
+    
+    text-align: center;
+  }
+
+.lang a{
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
 }

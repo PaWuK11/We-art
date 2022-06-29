@@ -1,20 +1,14 @@
-$( document ).ready(function() {
-    var ctrlVideo = document.getElementById("banner-video"); 
-     
-    $('button').click(function(){
-      if ($('button').hasClass("active")){
-        
-            ctrlVideo.play();
-        
-        $('button').html("Pause");
-        $('button').toggleClass("active");
-      } else {
-        
-            ctrlVideo.pause();
-        
-        $('button').html("play");
-        $('button').toggleClass("active");
-      }
-    });
-     
-    });
+const videoPlayer = document.querySelector('.video')
+const video = videoPlayer.querySelector('.vidos')
+const playButton = videoPlayer.querySelector('.active')
+
+playButton.addEventListener('click', (e) => {
+    if(video.paused){
+        video.play()
+        e.target.textContent = '▮ ▮'
+    }else{
+        video.pause()
+        e.target.textContent = '▶'
+    }
+}
+)
