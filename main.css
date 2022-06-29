@@ -21,6 +21,7 @@ video{
   -moz-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+  cursor: pointer;
   background: url('img/play.png');
 }
 button {
@@ -39,4 +40,47 @@ button {
 
 button.active {
     background-color:transparent ;
-  }
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 176px;
+    padding-right: 85px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #181819;
+}
+
+.title-lvl1{
+    
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 114px;
+    padding-right: 112px;
+}
+
+.text-content{
+    align-items: center;
+    justify-content: center;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 18px;
+}
+
