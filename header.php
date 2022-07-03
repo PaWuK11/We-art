@@ -13,6 +13,7 @@
 </div>
 
 <div class="lang">
+    <label class="krapka" >●</label>
     <ul>
         <li class="lang__item-no-active">
             <a class="item-lang" href="#">ENG</a>

@@ -25,8 +25,8 @@
 
 video{
   top: 20px;
-  width: 1080px;
-  height: 880px;
+  width: 1280px;
+  height: 1060px;
   left: 0;
   right: 0;
   bottom: 20px;
@@ -46,12 +46,12 @@ button {
     color: #fff;
     display: block;
     font-size: 18px;
-    left: 87%;
+    left: 85%;
     margin: 0 auto;
     padding: 8px 16px;
     position: absolute;
     right: 0;
-    top: 125%;
+    top: 110%;
     font-size: 50px;
 }
 
@@ -174,8 +174,9 @@ color: #181819;
 .read-more a{
     display: flex;
     margin-left: 700px;
+    margin-right: 700px;
+    margin-bottom: 50px;
     text-decoration: none;
-    margin-right: 600px;
     font-family: 'Century Gothic';
     font-style: normal;
     font-weight: 400;
@@ -184,7 +185,7 @@ color: #181819;
     letter-spacing: 1px;
     text-transform: uppercase;
     padding-bottom: 40px;
-    border: 1px dashed #181819;
+    border-bottom: 1px dashed #181819;
     color: #181819;
 }
 
@@ -233,4 +234,8 @@ ul {
     text-transform: uppercase;
     text-decoration: none;
     
+}
+
+.lang .krapka{
+    margin-left: 68px;
 }
